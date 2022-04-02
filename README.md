@@ -15,3 +15,8 @@ To type something in:
 1. Type the query in the search bar input. 
 2. Hit 'enter' or click the submit button and the links should appear
 3. Query time would be found in cmd prompt
+
+Submission: 
+Michael Orlanes
+Jacob Tang
+Tiffany Wu
