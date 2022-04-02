@@ -1,0 +1,55 @@
+BAD QUERIES
+
+1. topological sorting
+Problem: Most relevant pages weren’t at the top of the list
+Fix: Modified the scoring function threshold
+
+2. graduation requirements
+Problem: Not finding relevant results
+Fix: Implemented cosine scoring function
+
+3. master of software engineering
+Problem: Slow query time (> 300 ms)
+Fix: Removed stopwords from query if the proportion of stopwords is below 80%
+
+4. donald bren information and computer sciences
+Problem: Very slow query time (> 400 ms)
+Fix: Added documents to a top 10 list if past a certain threshold, and stopped searching if there were enough valid documents found
+
+5. cs 121
+Problem: Very few relevant results that were also not ranked highly
+Fix: Implemented cosine scoring function
+
+6. undergraduate counselor
+Problem: Not finding relevant results
+Fix: Implemented cosine scoring function
+
+7. computer science tutoring
+Problem: Slow query time (> 300 ms)
+Fix: Changed the order in which we searched for the terms (started from rarest terms to most common)
+
+8. the ins and outs of programming basics
+Problem: Very slow query time (> 400 ms)
+Fix: Optimized the method of parsing postings from the index file
+
+9. financial aid
+Problem: Not finding relevant results
+Fix: Implemented cosine scoring function
+
+10. cyberspace security
+Problem: Very few relevant results
+Fix: Increased the weight of important terms (bolded or in header)
+
+
+GOOD QUERIES
+
+1. fortnite
+2. minecraft
+3. league of legends
+4. hackathon
+5. pride and prejudice
+6. icssc
+7. shrek
+8. grace hopper
+9. python for loop
+10. machine learning
